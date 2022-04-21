@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: ProdApp
+  profiles:
+    active: prod
+server:
+  port: 8889 
