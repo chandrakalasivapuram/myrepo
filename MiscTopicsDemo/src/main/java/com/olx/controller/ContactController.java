@@ -9,12 +9,12 @@ public class ContactController {
 	@GetMapping(value="/api/contact/v1",produces=MediaType.APPLICATION_JSON_VALUE)
 	public Contact getContact()
 	{
-		return new Contact("tom",12345);
+		return new Contact("tom",123);
 	}
 	@GetMapping(value="/api/contact/v2",produces=MediaType.APPLICATION_JSON_VALUE)
 	public Contact getContact2()
 	{
-		return new Contact("tom",12345);
+		return new Contact("tom",1234);
 	}
 	@GetMapping(value="/api/contact/v2",produces=MediaType.APPLICATION_JSON_VALUE,params="version=v1")
 	
